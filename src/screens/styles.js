@@ -6,6 +6,17 @@ const styles = StyleSheet.create({
 		flex: 1,
 		backgroundColor: 'white'
 	},
+	header: {
+		flexDirection: 'row',
+		alignItems: 'center',
+		paddingHorizontal: 10
+	},
+	serviceText: {
+		fontSize: 20,
+		fontWeight: '600',
+		marginLeft: 10,
+		color: colors.black
+	},
 	tabContainer: {
 		height: 50,
 		flexDirection: 'row',
@@ -30,6 +41,10 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		color: colors.black,
 		fontWeight: '500'
+	},
+	settingIcon: {
+		height: 35,
+		width: 35
 	}
 });
 
